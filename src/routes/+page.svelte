@@ -5,7 +5,7 @@
 
 <script>
     import StatsCard from '$lib/statsCard.svelte';
-    import LineChart from '$lib/LineChart.svelte'; // 💡 New Component Import
+    import LineChart from '$lib/lineChart.svelte'; // 💡 New Component Import
     import { dashboardData, updateData, activePeriod } from '$lib/stores/dashboardStore';
 
     // Server se aaya hua data receive karein
