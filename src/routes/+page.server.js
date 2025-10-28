@@ -3,7 +3,7 @@
  * Yahan se hum kisi bhi external API ko call kar sakte hain.
  */
 import { error } from '@sveltejs/kit';
-import { error } from '@sveltejs/kit';
+
 
 export async function load() {
     // API Call ko try...catch block mein wrap karein
